@@ -1,0 +1,53 @@
+{
+	"plants":[
+		
+        {
+		"commonname": "Cedar", 
+		"region": "Northwest",
+		"edible": "no",
+		"plantstyle": "tree",
+		"photo": "cedar.jpg"
+		},
+        
+        {
+		"commonname": "Rhododendron", 
+		"region": "Northwest",
+		"edible": "no",
+		"plantstyle": "shrub",
+		"photo": "rhododendron.jpg"
+		},
+		
+        {
+		"commonname": "Leek", 
+		"region": "Northwest",
+		"edible": "yes",
+		"plantstyle": "shrub",
+		"photo": "leek.jpg"
+		},
+		
+        {
+		"commonname": "Juniper", 
+		"region": "Northwest",
+		"edible": "no",
+		"plantstyle": "shrub",
+		"photo": "juniper.jpg"
+		},
+		
+        {
+		"commonname": "Apple", 
+		"region": "Northwest",
+		"edible": "yes",
+		"plantstyle": "tree",
+		"photo": "apple.jpg"
+		},
+        
+        {
+		"commonname": "Camass", 
+		"region": "Northwest",
+		"edible": "no",
+		"plantstyle": "flower",
+		"photo": "camass.jpg"
+		}
+                
+    ]
+}

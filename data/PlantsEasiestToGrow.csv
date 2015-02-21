@@ -1,0 +1,22 @@
+type,common_name,King_county_link,latin_name,exposure,moisture,height_ft,availability,ease,photo
+Tree,bigleaf maple,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=1,Acer macrophyllum,sun - shade,dry - moist,100,generally available,hardy plant - tough to kill!,maple.jpg
+Groundcover,bleeding heart,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=40,Dicentra formosa,part shade - shade,dry - moist,1.5,widely available,hardy plant - tough to kill!,bleeding.jpg
+Tree,Douglas-fir,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=6,Pseudotsuga menziesii,sun - part shade,dry - moist,250,generally available,hardy plant - tough to kill!,dougfir.jpg
+Groundcover,false lily-of-the-valley,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=73,Maianthemum dilatatum,sun - shade,moist - wet,1,generally available,hardy plant - tough to kill!,nwplants.jpg
+Groundcover,fireweed,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=134,Epilobium augustifolium,sun - part shade,dry - moist,6,harder to find,hardy plant - tough to kill!,nwplants.jpg
+Shrub,nootka rose,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=74,Rosa nutkana,sun - part shade,moist - wet,10,generally available,hardy plant - tough to kill!,nwplants.jpg
+Groundcover,sword fern,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=37,Polystichum munitum,part shade - shade,dry - moist,3,widely available,hardy plant - tough to kill!,swordfern.jpg
+Groundcover,trailing snowberry,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=116,Symphoricarpos mollis,sun - shade,dry - moist,3,harder to find,hardy plant - tough to kill!,nwplants.jpg
+Groundcover,woodland strawberry,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=70,Fragaria vesca,part shade - shade,dry - moist,1,generally available,hardy plant - tough to kill!,nwplants.jpg
+Groundcover,yarrow,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=135,Achillea millefolium,sun - part shade,dry - moist,0,widely available,hardy plant - tough to kill!,nwplants.jpg
+Shrub,black gooseberry,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=65,Ribes lacustre,sun - shade,moist - wet,5,generally available,grows well in correct conditions,gooseberry.jpg
+Shrub,bog laurel,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=107,Kalmia microphylla,sun - part shade,wet,3,generally available,grows well in correct conditions,nwplants.jpg
+Shrub,bog rosemary,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=105,Andromeda polifolia,sun - part shade,wet,1.5,generally available,grows well in correct conditions,nwplants.jpg
+Groundcover,chocolate lily,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=133,fritillaria lanceolata,sun - part shade,dry - moist,3,harder to find,grows well in correct conditions,nwplants.jpg
+Shrub,evergreen huckleberry,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=20,Vaccinium ovatum,part shade - shade,dry - moist,6,widely available,grows well in correct conditions,nwplants.jpg
+Tree,grand fir,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=7,Abies grandis,sun - shade,dry - moist,250,widely available,grows well in correct conditions,grandfir.jpg
+Shrub,Pacific rhododendron,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=87,Rhododendron macrophyllum,part shade - shade,dry - moist,25,generally available,grows well in correct conditions,rhododendron.jpg
+Tree,paper birch,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=137,Betula papyrifera,sun - part shade,moist,90,generally available,grows well in correct conditions,paperbirch.jpg
+Groundcover,taper-tip onion; Hooker's onion,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=152,Allium acuminatum,sun - part shade,dry,1,harder to find,grows well in correct conditions,nwplants.jpg
+Groundcover,trillium,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=80,Trillium ovatum,part shade - shade,dry - moist,1.5,generally available,grows well in correct conditions,nwplants.jpg
+Tree,Pacific dogwood,https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=7,Cornus nuttallii,part shade,dry - moist,60,generally available,difficult to grow,dogwood.jpg
