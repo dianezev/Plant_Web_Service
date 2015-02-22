@@ -53,11 +53,11 @@ function loadAJAX(cat)
 function parseJSON(data){
 	$.each(data.books, function(i,item){
 	
-		var text = '<b>Title</b>:' + item.title + '<br />';
-		text += '<b>Author</b>:' + item.author + '<br />';
-		text += '<b>Category</b>:' + item.category + '<br />';
-		text += '<b>Publishing Date</b>:' + item.pubdate + '<br />';
-		text += '<b>ISBN</b>:' + item.isbn + '<br />';
+		var text = '<strong>Title</strong>:' + item.title + '<br />';
+		text += '<strong>Author</strong>:' + item.author + '<br />';
+		text += '<strong>Category</strong>:' + item.category + '<br />';
+		text += '<strong>Publishing Date</strong>:' + item.pubdate + '<br />';
+		text += '<strong>ISBN</strong>:' + item.isbn + '<br />';
 	
 		$('<li></li>').html(text).appendTo('#books');  
 	});
