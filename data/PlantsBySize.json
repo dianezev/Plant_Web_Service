@@ -9,11 +9,10 @@
     "height_ft":250,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"dougfir.jpg",
-    "photo_link":"http://www.extension.iastate.edu/forestry/iowa_trees/trees/douglas_fir.html"
+    "photo":"dougfir.jpg"
   },
   {
-    "type":"Groundcover",
+    "type":"Tree",
     "common_name":"grand fir",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=7",
     "latin_name":"Abies grandis",
@@ -22,8 +21,7 @@
     "height_ft":250,
     "availability":"widely available",
     "ease":"grows well in correct conditions",
-    "photo":"grandfir.jpg",
-    "photo_link":"http://hoodriverswcd.org/projects/plants/"
+    "photo":"grandfir.jpg"
   },
   {
     "type":"Tree",
@@ -35,11 +33,10 @@
     "height_ft":100,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"maple.jpg",
-    "photo_link":"http://www.sfu.ca/soils/bigleafmaple.htm"
+    "photo":"maple.jpg"
   },
   {
-    "type":"Groundcover",
+    "type":"Tree",
     "common_name":"paper birch",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=137",
     "latin_name":"Betula papyrifera",
@@ -48,11 +45,10 @@
     "height_ft":90,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"paperbirch.jpg",
-    "photo_link":"http://www.kgcphoto.com/upper_michigan_landscapes/half-moon-birch-forest-4.htm"
+    "photo":"paperbirch.jpg"
   },
   {
-    "type":"Groundcover",
+    "type":"Tree",
     "common_name":"Pacific dogwood",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=7",
     "latin_name":"Cornus nuttallii",
@@ -61,8 +57,7 @@
     "height_ft":60,
     "availability":"generally available",
     "ease":"difficult to grow",
-    "photo":"dogwood.jpg",
-    "photo_link":"http://imashon.com/w/pacific-dogwood-blossoms-over-the-merced-river-yosemite-national-park-california.html"
+    "photo":"dogwood.jpg"
   },
   {
     "type":"Shrub",
@@ -74,11 +69,10 @@
     "height_ft":25,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"rhododendron.jpg",
-    "photo_link":"http://lzamgs.com/rhododendron-2014-free-15-hd-wallpaper.html"
+    "photo":"rhododendron.jpg"
   },
   {
-    "type":"Groundcover",
+    "type":"Shrub",
     "common_name":"nootka rose",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=74",
     "latin_name":"Rosa nutkana",
@@ -87,11 +81,10 @@
     "height_ft":10,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"rose.jpg",
-    "photo_link":"http://imashon.com/flowers/nootka-rose-hips.html"
+    "photo":"nwplants.jpg"
   },
   {
-    "type":"Groundcover",
+    "type":"Shrub",
     "common_name":"evergreen huckleberry",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=20",
     "latin_name":"Vaccinium ovatum",
@@ -100,8 +93,7 @@
     "height_ft":6,
     "availability":"widely available",
     "ease":"grows well in correct conditions",
-    "photo":"huckle.jpg",
-    "photo_link":"http://www.mountaineersbooks.org/Assets/ClientPages/zz_ForagersThanksgiving.aspx"
+    "photo":"nwplants.jpg"
   },
   {
     "type":"Groundcover",
@@ -113,11 +105,10 @@
     "height_ft":6,
     "availability":"harder to find",
     "ease":"hardy plant - tough to kill!",
-    "photo":"fireweed.jpg",
-    "photo_link":"http://pixgood.com/fireweed-drawing.html"
+    "photo":"nwplants.jpg"
   },
   {
-    "type":"Groundcover",
+    "type":"Shrub",
     "common_name":"black gooseberry",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=65",
     "latin_name":"Ribes lacustre",
@@ -126,8 +117,7 @@
     "height_ft":5,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"gooseberry.jpg",
-    "photo_link":"https://green2.kingcounty.gov/gonative/Photo.aspx?Act=view&PhotoID=425"
+    "photo":"gooseberry.jpg"
   },
   {
     "type":"Shrub",
@@ -139,11 +129,10 @@
     "height_ft":3,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"laurel.jpg",
-    "photo_link":"https://standingoutinmyfield.wordpress.com/2014/07/07/some-early-summer-flowers-of-the-adirondacks/"
+    "photo":"nwplants.jpg"
   },
   {
-    "type":"Shrub",
+    "type":"Groundcover",
     "common_name":"chocolate lily",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=133",
     "latin_name":"fritillaria lanceolata",
@@ -152,11 +141,10 @@
     "height_ft":3,
     "availability":"harder to find",
     "ease":"grows well in correct conditions",
-    "photo":"choclily.jpg",
-    "photo_link":"http://www.alaska-in-pictures.com/fritillaria-camschatcensis-2589-pictures.htm"
+    "photo":"nwplants.jpg"
   },
   {
-    "type":"Shrub",
+    "type":"Groundcover",
     "common_name":"sword fern",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=37",
     "latin_name":"Polystichum munitum",
@@ -165,8 +153,7 @@
     "height_ft":3,
     "availability":"widely available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"swordfern.jpg",
-    "photo_link":"http://edbookphoto.photoshelter.com/image/I0000qJ1aBoGS4rE"
+    "photo":"swordfern.jpg"
   },
   {
     "type":"Groundcover",
@@ -178,24 +165,10 @@
     "height_ft":3,
     "availability":"harder to find",
     "ease":"hardy plant - tough to kill!",
-    "photo":"snowberry.jpg",
-    "photo_link":"http://sharingwood.org/Berries.php"
+    "photo":"nwplants.jpg"
   },
   {
     "type":"Shrub",
-    "common_name":"bleeding heart",
-    "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=40",
-    "latin_name":"Dicentra formosa",
-    "exposure":"part shade - shade",
-    "moisture":"dry - moist",
-    "height_ft":1.5,
-    "availability":"widely available",
-    "ease":"hardy plant - tough to kill!",
-    "photo":"bleeding.jpg",
-    "photo_link":"http://home.howstuffworks.com/define-bleeding-heart.htm"
-  },
-  {
-    "type":"Tree",
     "common_name":"bog rosemary",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=105",
     "latin_name":"Andromeda polifolia",
@@ -204,11 +177,22 @@
     "height_ft":1.5,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"rosemary.jpg",
-    "photo_link":"https://gobotany.newenglandwild.org/species/andromeda/polifolia/?pile=woody-angiosperms"
+    "photo":"nwplants.jpg"
   },
   {
-    "type":"Shrub",
+    "type":"Groundcover",
+    "common_name":"bleeding heart",
+    "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=40",
+    "latin_name":"Dicentra formosa",
+    "exposure":"part shade - shade",
+    "moisture":"dry - moist",
+    "height_ft":1.5,
+    "availability":"widely available",
+    "ease":"hardy plant - tough to kill!",
+    "photo":"bleeding.jpg"
+  },
+  {
+    "type":"Groundcover",
     "common_name":"trillium",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=80",
     "latin_name":"Trillium ovatum",
@@ -217,11 +201,10 @@
     "height_ft":1.5,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"trillium.jpg",
-    "photo_link":"http://wallpapers.mi9.com/wallpaper/free-red-star-trillium-wallpaper_88035/"
+    "photo":"nwplants.jpg"
   },
   {
-    "type":"Tree",
+    "type":"Groundcover",
     "common_name":"false lily-of-the-valley",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=73",
     "latin_name":"Maianthemum dilatatum",
@@ -230,8 +213,7 @@
     "height_ft":1,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"lily.jpg",
-    "photo_link":"http://victoriadailyphoto.blogspot.com/2010/05/false-lily-of-valley-maianthemum.html"
+    "photo":"nwplants.jpg"
   },
   {
     "type":"Groundcover",
@@ -243,8 +225,7 @@
     "height_ft":1,
     "availability":"harder to find",
     "ease":"grows well in correct conditions",
-    "photo":"taper.jpg",
-    "photo_link":"http://johncarroutdoors.com/2013/08/02/benson-plateau/"
+    "photo":"nwplants.jpg"
   },
   {
     "type":"Groundcover",
@@ -256,11 +237,10 @@
     "height_ft":1,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"strawberry.jpg",
-    "photo_link":"http://www.lavieenrosegardens.com/product/fragaria-vesca-woodland-strawberry-perennial-seeds#.VOj4nvnF-So"
+    "photo":"nwplants.jpg"
   },
   {
-    "type":"Tree",
+    "type":"Groundcover",
     "common_name":"yarrow",
     "King_county_link":"https://green2.kingcounty.gov/gonative/Plant.aspx?Act=view&PlantID=135",
     "latin_name":"Achillea millefolium",
@@ -269,7 +249,6 @@
     "height_ft":0,
     "availability":"widely available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"yarrow.jpg",
-    "photo_link":"http://www.ngtherbals.com/blog/a-brief-introduction-to-the-power-of-yarrow-/"
+    "photo":"nwplants.jpg"
   }
 ]
