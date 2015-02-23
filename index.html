@@ -1,173 +1,42 @@
 <html>
 <head>
-    <title>Web Service, Assignment A8</title>
-        
-    <style>
-        body {
-            font-family:georgia;
-            font-size:12px;
-            /* experimented with background image
-            background-image: url("images/closeup.jpg");
-            background-size: cover;
-            */
-            background-color: orange;
-            /*background-color: #013c01;*/
-            color:#295c27;
-        }
-
-		main {
-			position: relative;
-			display: block;
-			width: 70%;
-			padding: 2em 3em;
-            margin: 2em auto;
-            background-color: #dcdcf8;
-            /* experimented with opacity over background image
-            background-color:rgba(255, 255, 255, 0.7);*/
-            -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4), inset 0 0 50px rgba(0, 0, 0, 0.1);
-			-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4), inset 0 0 50px rgba(0, 0, 0, 0.1);
-			box-shadow: 0 0 5px rgba(0, 0, 0, 0.4), inset 0 0 50px rgba(0, 0, 0, 0.1);
-        }
-        
-        h2 {
-            text-align: center;
-        }
-        
-        a {
-            color:#295c27;
-        }
-        
-        footer a {
-            color: white;
-        }
-        
-        #plants {
-            border:2px solid #295c27;
-            -moz-border-radius: 5px; 
-            -webkit-border-radius: 5px;
-            width:400px;
-            list-style-type:none;
-            margin:auto;
-            padding:0;
-        }
-        #plants li {
-            padding:5px;
-            overflow: hidden;
-        }
-
-        #plants h1 {
-            font:14px georgia;
-            padding:5px;
-/*            color: #295c27;*/
-        /*    color:#fff;*/
-         /*   background:#295c27;*/
-            margin:0;
-        }
-
-        img {
-            float:left;
-            display:inline-block;
-            padding:0;
-            margin: 20px;
-            max-width:300px;
-            width:75%;
-            box-shadow: 8px 8px 5px #888888;
-
-        }
-
-        footer {
-			font-family: arial, helvetica, sans-serif;
-			font-size: 12px;
-			color: white;
-			text-align: center;
-			margin: 2em 0 3em;
-			clear: both; /* ride below all items */
-		}
- 
-
-    </style>
-    <script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function() {  
-
-            $('.category').click(function(e){
-                //stop default action of the link
-                e.preventDefault(); 
-
-                //Get category from URL
-                var cat = $(this).attr("href");  
-
-                //Get description for header from value attribute
-                var description = $(this).attr("value");  
-
-                // Change heading
-                $('#plants').html('<h1 id="head">' + description + " Plants</h1>");      
-
-                loadAJAX(cat);  //load AJAX and parse JSON file
-            });
-            
-            // Get year for copyright
-            var currentYear = new Date();
-            var getYear = currentYear.getFullYear();
-                $("#copyright").text(getYear);            
-
-        });
-
-
-        function loadAJAX(cat)
-        {
-            $.ajax({  
-                type: "GET",
-                dataType: "json",  
-                url: "api.php?cat=" + cat,
-                success: parseJSON,
-            });
-
-        }
-
-        function parseJSON(data){
-            $.each(data, function(i,item){
-
-                var text = '<b>Common name:  </b>' + item.common_name + '<br />';
-                text += '<b>Latin name:  </b>' + item.latin_name + '<br />';
-                text += '<b>Moisture:  </b>' + item.moisture + '<br />';
-                text += '<b>Exposure:  </b>' + item.exposure + '<br />';
-                text += '<b>Ease of Growth:  </b>' + item.ease + '<br />';
-                text += '<b>Height (ft):  </b>' + item.height_ft + '<br />';
-                text += '<a href="' + item.King_county_link + '">More information through King County</a><br />';
-                text += '<img src="images/' + item.photo + '" alt="Picture of ' + item.commonname + '" align="right" />';
-
-                // Create li node, add text node to it (from JSON data) and append it to #plants
-                $('<li></li>').html(text).appendTo('#plants');  
-            });
-        }
-
-   
-
-        
-    </script>
+	<title>Web Service, Assignment A8</title>
+	<link href="styles.css" rel="stylesheet"/>
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<script src="site.js" type="text/javascript"></script>
 </head>
-	<body>
-        <main>
-            <h2>Common Northwest Native Plants</h2>
+<body>
 
-            <a href="plants-by-size" class="category" value="Largest to Smallest">Largest to Smallest</a><br />
-            <a href="plants-easy-to-grow" class="category" value="Easiest to Most Difficult to Grow">Easiest to Most Difficult to Grow</a></br></br>
+<div class="container clearfix">
+	<header>
+		<div class="wrapper">
 
-                <ul id="plants">
+			<h1>Common Northwest<br/>Native Plants</h1>
+			<nav>
+				<ul>
+					<li>Sort by:</li>
+					<li><a href="plants-by-size" class="category" value="Largest to Smallest">Size</a></li>
+					<li><a href="plants-easy-to-grow" class="category" value="Easiest to Most Difficult to Grow">Difficulty</a></li>
+				</ul>
+			</nav>
 
-                    <h1 id="head">Plants</h1>
+		</div>
+	</header>
 
-                </ul>
-        </main>
+	<main>
+		<div id="plants" class="plants wrapper">
+		</div>
+	</main>
 
-        <footer>
-            <small>&copy; <span id="copyright"></span>, All Rights Reserved ~
-                <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
-                <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
-            </small>
-        </footer>
-    
-    </body>
+	<footer>
+		<div class="wrapper">
+			<small>&copy; <span id="copyright"></span>, All Rights Reserved ~
+				<a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
+				<a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
+			</small>
+		</div>
+	</footer>
+</div>
+
+</body>
 </html>
