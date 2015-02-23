@@ -9,7 +9,8 @@
     "height_ft":100,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"maple.jpg"
+    "photo":"maple.jpg",
+    "photo_link":"http://www.sfu.ca/soils/bigleafmaple.htm"
   },
   {
     "type":"Groundcover",
@@ -21,7 +22,8 @@
     "height_ft":1.5,
     "availability":"widely available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"bleeding.jpg"
+    "photo":"bleeding.jpg",
+    "photo_link":"http://home.howstuffworks.com/define-bleeding-heart.htm"
   },
   {
     "type":"Tree",
@@ -33,7 +35,8 @@
     "height_ft":250,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"dougfir.jpg"
+    "photo":"dougfir.jpg",
+    "photo_link":"http://www.extension.iastate.edu/forestry/iowa_trees/trees/douglas_fir.html"
   },
   {
     "type":"Groundcover",
@@ -45,7 +48,8 @@
     "height_ft":1,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"nwplants.jpg"
+    "photo":"lily.jpg",
+    "photo_link":"http://victoriadailyphoto.blogspot.com/2010/05/false-lily-of-valley-maianthemum.html"
   },
   {
     "type":"Groundcover",
@@ -57,7 +61,8 @@
     "height_ft":6,
     "availability":"harder to find",
     "ease":"hardy plant - tough to kill!",
-    "photo":"nwplants.jpg"
+    "photo":"fireweed.jpg",
+    "photo_link":"http://pixgood.com/fireweed-drawing.html"
   },
   {
     "type":"Shrub",
@@ -69,7 +74,8 @@
     "height_ft":10,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"nwplants.jpg"
+    "photo":"rose.jpg",
+    "photo_link":"http://imashon.com/flowers/nootka-rose-hips.html"
   },
   {
     "type":"Groundcover",
@@ -81,7 +87,8 @@
     "height_ft":3,
     "availability":"widely available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"swordfern.jpg"
+    "photo":"swordfern.jpg",
+    "photo_link":"http://edbookphoto.photoshelter.com/image/I0000qJ1aBoGS4rE"
   },
   {
     "type":"Groundcover",
@@ -93,7 +100,8 @@
     "height_ft":3,
     "availability":"harder to find",
     "ease":"hardy plant - tough to kill!",
-    "photo":"nwplants.jpg"
+    "photo":"snowberry.jpg",
+    "photo_link":"http://sharingwood.org/Berries.php"
   },
   {
     "type":"Groundcover",
@@ -105,7 +113,8 @@
     "height_ft":1,
     "availability":"generally available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"nwplants.jpg"
+    "photo":"strawberry.jpg",
+    "photo_link":"http://www.lavieenrosegardens.com/product/fragaria-vesca-woodland-strawberry-perennial-seeds#.VOj4nvnF-So"
   },
   {
     "type":"Groundcover",
@@ -117,7 +126,8 @@
     "height_ft":0,
     "availability":"widely available",
     "ease":"hardy plant - tough to kill!",
-    "photo":"nwplants.jpg"
+    "photo":"yarrow.jpg",
+    "photo_link":"http://www.ngtherbals.com/blog/a-brief-introduction-to-the-power-of-yarrow-/"
   },
   {
     "type":"Shrub",
@@ -129,7 +139,8 @@
     "height_ft":5,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"gooseberry.jpg"
+    "photo":"gooseberry.jpg",
+    "photo_link":"https://green2.kingcounty.gov/gonative/Photo.aspx?Act=view&PhotoID=425"
   },
   {
     "type":"Shrub",
@@ -141,7 +152,8 @@
     "height_ft":3,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"nwplants.jpg"
+    "photo":"laurel.jpg",
+    "photo_link":"https://standingoutinmyfield.wordpress.com/2014/07/07/some-early-summer-flowers-of-the-adirondacks/"
   },
   {
     "type":"Shrub",
@@ -153,7 +165,8 @@
     "height_ft":1.5,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"nwplants.jpg"
+    "photo":"rosemary.jpg",
+    "photo_link":"https://gobotany.newenglandwild.org/species/andromeda/polifolia/?pile=woody-angiosperms"
   },
   {
     "type":"Groundcover",
@@ -165,7 +178,8 @@
     "height_ft":3,
     "availability":"harder to find",
     "ease":"grows well in correct conditions",
-    "photo":"nwplants.jpg"
+    "photo":"choclily.jpg",
+    "photo_link":"http://www.alaska-in-pictures.com/fritillaria-camschatcensis-2589-pictures.htm"
   },
   {
     "type":"Shrub",
@@ -177,7 +191,8 @@
     "height_ft":6,
     "availability":"widely available",
     "ease":"grows well in correct conditions",
-    "photo":"nwplants.jpg"
+    "photo":"huckle.jpg",
+    "photo_link":"http://www.mountaineersbooks.org/Assets/ClientPages/zz_ForagersThanksgiving.aspx"
   },
   {
     "type":"Tree",
@@ -189,7 +204,8 @@
     "height_ft":250,
     "availability":"widely available",
     "ease":"grows well in correct conditions",
-    "photo":"grandfir.jpg"
+    "photo":"grandfir.jpg",
+    "photo_link":"http://hoodriverswcd.org/projects/plants/"
   },
   {
     "type":"Shrub",
@@ -201,7 +217,8 @@
     "height_ft":25,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"rhododendron.jpg"
+    "photo":"rhododendron.jpg",
+    "photo_link":"http://lzamgs.com/rhododendron-2014-free-15-hd-wallpaper.html"
   },
   {
     "type":"Tree",
@@ -213,7 +230,8 @@
     "height_ft":90,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"paperbirch.jpg"
+    "photo":"paperbirch.jpg",
+    "photo_link":"http://www.kgcphoto.com/upper_michigan_landscapes/half-moon-birch-forest-4.htm"
   },
   {
     "type":"Groundcover",
@@ -225,7 +243,8 @@
     "height_ft":1,
     "availability":"harder to find",
     "ease":"grows well in correct conditions",
-    "photo":"nwplants.jpg"
+    "photo":"taper.jpg",
+    "photo_link":"http://johncarroutdoors.com/2013/08/02/benson-plateau/"
   },
   {
     "type":"Groundcover",
@@ -237,7 +256,8 @@
     "height_ft":1.5,
     "availability":"generally available",
     "ease":"grows well in correct conditions",
-    "photo":"nwplants.jpg"
+    "photo":"trillium.jpg",
+    "photo_link":"http://wallpapers.mi9.com/wallpaper/free-red-star-trillium-wallpaper_88035/"
   },
   {
     "type":"Tree",
@@ -249,6 +269,7 @@
     "height_ft":60,
     "availability":"generally available",
     "ease":"difficult to grow",
-    "photo":"dogwood.jpg"
+    "photo":"dogwood.jpg",
+    "photo_link":"http://imashon.com/w/pacific-dogwood-blossoms-over-the-merced-river-yosemite-national-park-california.html"
   }
 ]
