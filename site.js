@@ -34,8 +34,8 @@ function parseJSON(data) {
 	$.each(data, function (i, item) {
         // Carolyn:  Can you please help me figure out how to get the credit at the bottom of the photo? Thx.
         // Use photo var to create link/img/photo credits related to plant
-        var photo = '<div class="photo" style="background-image:url(images/' + item.photo + ')" />';
-        photo += '<h5>Photo &copy; <a href="' + item.photo_link + '">' + item.photo_credit + '</a></h5></div>';
+        var photo = '<div class="photo-wrap"><div class="photo" style="background-image:url(images/' + item.photo + ')" />';
+        photo += '<h5>Photo &copy; <a href="' + item.photo_link + '">' + item.photo_credit + '</a></h5></div></div>';
         
         // Use text var for text info associated with plant
         var text = '<strong>Common name:  </strong>' + '<span>' + item.common_name + '</span><br />';
@@ -50,6 +50,6 @@ function parseJSON(data) {
 //				url("paper.gif");
         
 		// Create div node, add photo and text info to it (from JSON data) and append it to #plants
-		$('<div></div>').html(photo + text).appendTo('#plants');
+		$('<div class="plant-module"></div>').html(photo + text).appendTo('#plants');
 	});
 }
