@@ -32,8 +32,13 @@ function loadAJAX(cat) {
 
 function parseJSON(data) {
 	$.each(data, function (i, item) {
-		var text = '<div class="photo" style="background-image:url(images/' + item.photo + ')" /></div>';
-		text += '<strong>Common name:  </strong>' + '<span>' + item.common_name + '</span><br />';
+        // Carolyn:  Can you please help me figure out how to get the credit at the bottom of the photo? Thx.
+        // Use photo var to create link/img/photo credits related to plant
+        var photo = '<div class="photo" style="background-image:url(images/' + item.photo + ')" />';
+        photo += '<h5>Photo &copy; <a href="' + item.photo_link + '">' + item.photo_credit + '</a></h5></div>';
+        
+        // Use text var for text info associated with plant
+        var text = '<strong>Common name:  </strong>' + '<span>' + item.common_name + '</span><br />';
 		text += '<strong>Latin name:  </strong>' + '<span>' + item.latin_name + '</span><br />';
 		text += '<strong>Moisture:  </strong>' + '<span>' + item.moisture + '</span><br />';
 		text += '<strong>Exposure:  </strong>' + '<span>' + item.exposure + '</span><br />';
@@ -43,8 +48,8 @@ function parseJSON(data) {
 //		text += '<img src="images/' + item.photo + '" alt="Picture of ' + item.commonname + '" align="right" />';
 
 //				url("paper.gif");
-
-		// Create li node, add text node to it (from JSON data) and append it to #plants
-		$('<div></div>').html(text).appendTo('#plants');
+        
+		// Create div node, add photo and text info to it (from JSON data) and append it to #plants
+		$('<div></div>').html(photo + text).appendTo('#plants');
 	});
 }

@@ -20,6 +20,9 @@ body {color:#295c27; font-family:Cabin, Arial, sans-serif; font-size:16px; line-
 h1, h2, h3, h4, h5, h6 {font-weight:normal;}
 a {color:rgba(255,255,255,.7); text-decoration:none;}
 a:hover, a:active {color:rgba(255,255,255,1); text-decoration:none;}
+h5 a {color:rgba(46, 139, 87, .8); text-decoration:none;}
+h5 a:hover, h5 a:active {color:rgba(46, 139, 87, 1); text-decoration:none;}
+
 ul, ol {margin:0; padding:0;}
 
 .container {position:relative; width:80%; margin:1em auto 2em; padding:0;}
