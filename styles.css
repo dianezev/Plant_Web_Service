@@ -44,7 +44,7 @@ main .plants .plant-module .photo-wrap {float:left; display:block; width:30%; te
 main .plants .plant-module .photo-wrap .photo {float:left; display:inline-block; width:100%; height:150px; padding:0; margin:0 0 .5em; background-size:cover; overflow:hidden; box-shadow:3px 3px 5px #888888; -webkit-box-shadow:3px 3px 5px #888888; -moz-box-shadow:3px 3px 5px #888888;}
 main .plants .plant-module strong {float:left; width:25%; margin:0; padding:0 .5em 0 2em;}
 main .plants .plant-module span {float:left; width:45%; margin:0; padding:0 5% 0 0;}
-main .plants .plant-module h5 {margin:0 0 1em;}
+main .plants .plant-module h5 {float:left; width:100%; margin:1em 0; line-height:1em;}
 main .plants .plant-module p {float:left; margin:.5em 0 1em 2em;}
 main .plants .plant-module p a {margin:0; color:green;}
 main .plants .plant-module p a:hover, main .plants .plant-module p a:active {text-decoration:underline;}
